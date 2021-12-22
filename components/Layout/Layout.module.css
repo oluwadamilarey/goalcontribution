@@ -1,0 +1,61 @@
+.container {
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.main {
+  /* background-color: blue; */
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.footer {
+  margin-top: 32px;
+  display: flex;
+  font-size: 0.75rem;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.readMore {
+  text-align: right;
+  font-weight: 700;
+  justify-self: center;
+  align-items: center;
+  align-self: center;
+}
+
+.readMore p {
+  margin: 5px;
+}
+
+.download {
+}
+
+.appStore {
+  align-items: center;
+  justify-content: center;
+}
+
+.image_apple {
+  align-self: center;
+  margin-bottom: 200px;
+  padding: 50px;
+}
+
+.read_about {
+  text-decoration: underline;
+  color: #04c8e0;
+  font-weight: 200;
+}
